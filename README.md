@@ -1,8 +1,14 @@
 # Sudoku WPF
-
 A desktop Sudoku game built with WPF and C#. Generate puzzles, play, save your progress, share boards by code, and customize the experience with multiple themes and sound options.
 
-This project was developed as a 30% Bagrut (Israeli matriculation) software engineering project.
+This project was developed as a 30% of the grade for software engineering project.
+
+
+<img width="1821" height="980" alt="image" src="https://github.com/user-attachments/assets/824d0ebb-8534-4a0f-b3d1-0fdf07b6b5bd" />
+
+----------------------------------------------------
+<img width="1326" height="719" alt="image" src="https://github.com/user-attachments/assets/7bdbc9c2-6c19-4e07-bd0a-5308997c4714" />
+
 
 ## Features
 
@@ -94,7 +100,6 @@ Themes are defined as XAML resource dictionaries in `Sudoku_WPF/Assets/Themes/` 
 
 ## Known Limitations
 
-- The Access database connection string in `DAL/DBHelper.cs` is currently absolute — move it to a relative path or `App.config` before deploying.
 - The DAL still targets .NET Framework 4.7.2; migrating it to .NET 8 would simplify packaging.
 - The OleDb dependency means the app is Windows-only and requires the Access Database Engine to be installed.
 
