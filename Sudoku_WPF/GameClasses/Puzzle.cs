@@ -266,6 +266,8 @@ namespace Sudoku_WPF.GameClasses
         {
             // Unprotect puzzle code if necessary
             puzzleCode = Code.Unprotect(puzzleCode);
+            if (puzzleCode == null)
+                throw new ArgumentException("Failed to unprotect puzzle code.");
 
             // Determine indices for parsing settings
             int settingEnd = puzzleCode.IndexOf(":");

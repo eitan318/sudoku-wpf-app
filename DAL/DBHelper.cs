@@ -2,6 +2,7 @@
 using System;
 using System.Data;
 using System.Data.OleDb;
+using System.IO;
 
 namespace DAL
 {
@@ -13,8 +14,10 @@ namespace DAL
         /// <returns>An OleDbConnection object with the connection string set.</returns>
         public static OleDbConnection GetConnection()
         {
-            string connString = @"Provider=Microsoft.ACE.OLEDB.12.0;
-                                Data Source=C:\Users\Cyber_User\Desktop\Programming\Sudoku_WPF\DAL\Data\Sudoku_DB1.accdb;
+            string baseDir = AppDomain.CurrentDomain.BaseDirectory;
+            string dbPath = Path.GetFullPath(Path.Combine(baseDir, @"..\..\..\..\DAL\Data\Sudoku_DB1.accdb"));
+            string connString = $@"Provider=Microsoft.ACE.OLEDB.12.0;
+                                Data Source={dbPath};
                                 Persist Security Info=True";
             OleDbConnection conn = new OleDbConnection(connString);
             return conn;
