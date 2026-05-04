@@ -1,4 +1,5 @@
 # Sudoku WPF
+<img width="948" height="602" alt="image" src="https://github.com/user-attachments/assets/ad555360-c5ac-4c2f-a3dc-07c08be72c6d" />
 
 A desktop Sudoku game built with WPF and C#. Generate puzzles, play, save your progress, share boards by code, and customize the experience with multiple themes and sound options.
 
