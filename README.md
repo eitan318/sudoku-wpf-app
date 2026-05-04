@@ -3,13 +3,11 @@ A desktop Sudoku game built with WPF and C#. Generate puzzles, play, save your p
 
 This project was developed as a 30% of the grade for software engineering project.
 
-<img width="1898" height="978" alt="image" src="https://github.com/user-attachments/assets/0e700cb9-e06c-43e3-a9cd-44fa35517bdb" />
+
+<img width="1821" height="980" alt="image" src="https://github.com/user-attachments/assets/824d0ebb-8534-4a0f-b3d1-0fdf07b6b5bd" />
 
 ----------------------------------------------------
-<img width="1107" height="668" alt="image" src="https://github.com/user-attachments/assets/59a6c6dd-84de-48dc-bee8-fa0a4f66beed" />
-
-------------------------------------------------------
-
+<img width="1326" height="719" alt="image" src="https://github.com/user-attachments/assets/7bdbc9c2-6c19-4e07-bd0a-5308997c4714" />
 
 
 ## Features
