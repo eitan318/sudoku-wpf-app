@@ -2,11 +2,11 @@
 
 <img width="1898" height="978" alt="image" src="https://github.com/user-attachments/assets/0e700cb9-e06c-43e3-a9cd-44fa35517bdb" />
 
-
+----------------------------------------------------
 
 <img width="1117" height="678" alt="image" src="https://github.com/user-attachments/assets/d243ff10-60c4-4962-9702-9570dbe9c12b" />
 
-
+------------------------------------------------------
 
 A desktop Sudoku game built with WPF and C#. Generate puzzles, play, save your progress, share boards by code, and customize the experience with multiple themes and sound options.
 
